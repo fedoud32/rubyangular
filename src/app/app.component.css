@@ -1,60 +1,60 @@
-body{
-    background-color: #e91e63;
-    font-family: 'Roboto', sans-serif;
-    margin:0px !important;
-    }
-     
-    .app-header{
+.login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.login-logo{
+    position: relative;
+    margin-left: -44.5%;
+}
+.login-logo img{
+    position: absolute;
+    width: 20%;
+    margin-top: 19%;
+    background: #282726;
+    border-radius: 4.5rem;
+    padding: 5%;
+}
+.login-form-1{
+    padding: 9%;
+    background:#282726;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    display: inline-block;
+    border-radius: 20px;
+}
+.login-form-1 h3{
+    text-align: center;
+    margin-bottom:12%;
+    color:#fff;
+}
+.login-form-2{
+    padding: 9%;
+    background: #f05837;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    display: inline-block;
+    border-radius: 20px;
+}
+.login-form-2 h3{
+    text-align: center;
+    margin-bottom:12%;
     color: #fff;
-        background-color: #e91e63;
-        text-align: center;
-        padding: 1%;
-    -webkit-box-shadow: 2px 4px 58px -20px rgba(0,0,0,1);
-    -moz-box-shadow: 2px 4px 58px -20px rgba(0,0,0,1);
-    box-shadow: 2px 4px 58px -20px rgba(0,0,0,1);
-    }
-     
-    .login-container{
-    width: 100%;
-      height:400px;
-      padding: 0% !important;
+}
+.btnSubmit{
+    font-weight: 600;
+    width: 50%;
+    color: #282726;
     background-color: #fff;
-    -webkit-box-shadow: 2px 4px 58px -20px rgba(0,0,0,1);
-    -moz-box-shadow: 2px 4px 58px -20px rgba(0,0,0,1);
-    box-shadow: 2px 4px 58px -20px rgba(0,0,0,1);
-    }
-     
-    .login-box-header{
-    width: auto;
-        height: 20%;
-        background-color: #673ab7;
-        text-align: center;
-        vertical-align: middle;
-        font-size: 3em;
-        padding: 2%;
-        color: #fff;
-    }
-     
-    .login-box-body{
-    width: auto;
-    height:100%;
-    padding: 5% 5% 5% 5%;
-    color: #d2d2d2;
-    }
-     
-    .login-icon{
-    margin-top: -2px;
-    }
-     
-    .justifier {
-    width: 100%;
-    padding-bottom: 2%;
-    }
-     
-    .login-button{
-    width: 100%;
-    padding:1.5% !important;
-        background-color: #673ab7;
-        font-size: 1.5em;
-        color: #fff !important;
-    }
+    border: none;
+    border-radius: 1.5rem;
+    padding:2%;
+}
+.btnForgetPwd{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btnForgetPwd:hover{
+    text-decoration:none;
+    color:#fff;
+}

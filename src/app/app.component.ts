@@ -1,20 +1,21 @@
 
 import { Component } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { bookComponent } from './_models/book.component';
+import { Http } from '@angular/http';
  
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
-  providers: [HttpClient]
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'app works!';
-  books: bookComponent[];
+  books;
  
-  constructor(private http:HttpClient){
-    this.http.get('http://localhost:3000/books.json')
-    .subscribe((res : bookComponent[]) => this.books = res);
-    }
+ /*  constructor(private http: Http) {
+    http.get('http://localhost:3000/books.json')
+      .subscribe(res => this.books = res.json());
+  } */
+  constructor( ) {
+
+  }
 }
