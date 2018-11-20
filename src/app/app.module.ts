@@ -5,12 +5,14 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule, MatCheckboxModule,MatGridListModule,MatInputModule,MatIconModule} from '@angular/material/';
 
 import { AppComponent } from './app.component';
-import { bookComponent } from './_models/book.component'
+import { bookComponent } from './_models/book.component';
+import { DataTableComponent } from './data-table/data-table.component'
 
 @NgModule({
 declarations: [
     AppComponent,
-    bookComponent
+    bookComponent,
+    DataTableComponent
   ],
   imports: [
     BrowserModule,

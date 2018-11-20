@@ -1,0 +1,32 @@
+<div class="container" ng-app="formvalid">
+  <div class="panel" data-ng-controller="validationCtrl">
+  <div class="panel-heading border">    
+    <h2>Data table using jquery datatable in Angularjs
+    </h2>
+  </div>
+  <div class="panel-body">
+      <table class="table table-bordered bordered table-striped table-condensed datatable" ui-jq="dataTable" ui-options="dataTableOpt">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>FullName</th>
+          <th>star date</th>
+          <th>End date</th>
+          <th></th>
+          <th></th>
+        </tr>
+      </thead>
+        <tbody>
+          <tr ng-repeat="n in data">
+            <td>{{$index+1}}</td>
+            <td>{{n[0]}}</td>
+            <td>{{n[1]}}</td>
+            <td>{{n[2]}}</td>
+            <td> <button class="btn btn-success">Accept</button></td>
+            <td> <button class="btn btn-danger">Decline</button></td>
+          </tr>
+        </tbody>
+    </table>
+  </div>
+</div>
+</div>
